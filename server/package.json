@@ -4,6 +4,8 @@
   "description": "Pracotica.",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
+    "dev": "nodeman index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,7 +20,9 @@
   },
   "homepage": "https://github.com/MiguelGavito/classwork3#readme",
   "dependencies": {
-    "express": "^4.21.2"
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "nodeman": "^1.1.2"
   },
   "devDependencies": {
     "nodemon": "^3.1.9"
